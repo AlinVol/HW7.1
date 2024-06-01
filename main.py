@@ -1,16 +1,7 @@
-# This is a sample Python script.
+def say_hi(name, age):
+    return f"Hi. My name is {name} and I'm {age} years old"
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+assert say_hi("Alex", 32) == "Hi. My name is Alex and I'm 32 years old", 'Test1'
+assert say_hi("Frank", 68) == "Hi. My name is Frank and I'm 68 years old", 'Test2'
+print('ОК')
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
